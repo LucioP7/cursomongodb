@@ -1,0 +1,28 @@
+use("instituto")
+db.productos.drop()
+
+db.productos.insertMany([
+    {
+        nombre: "Laptop",
+        precio: 1000,
+        cantidad: 10,
+    },
+    {
+        nombre: "Mouse",
+        precio: 100,
+        cantidad: 20,
+    },
+    {
+        nombre: "Teclado",
+        precio: 50,
+        cantidad: 30,
+    },
+    {
+        nombre: "Monitor",
+        precio: 200,
+        cantidad: 15,
+    },
+    
+
+])
+db.productos.find()

@@ -1,0 +1,15 @@
+use("instituto")
+
+db.productos.updateOne(
+    //query
+    {
+        _id: ObjectId("680fe302df0c4a364c94be78")
+    },
+    //acción
+    {
+        $set: {
+            nombre: "Notebook",
+        }
+    })
+
+db.productos.find()

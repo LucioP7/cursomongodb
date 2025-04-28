@@ -1,0 +1,21 @@
+use("instituto")
+
+db.createCollection("alumnos")
+
+db.alumnos.insertOne({
+    nombre: "Juan",
+    apellido: "Perez",
+    nota: 8.5
+})
+
+db.alumnos.insertOne({
+    nombre: "Pedro",
+    apellido: "Gonzalez",
+    nota: 6.5
+})
+
+db.alumnos.insertOne({
+    nombre: "Maria",
+    apellido: "Fernandez",
+    nota: 9.0
+})
